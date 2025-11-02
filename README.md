@@ -68,7 +68,7 @@ It helps parents, teachers, and children create creative, age-appropriate storie
 
 | Field             | Preset Options                                                                                                    | Custom Option             |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| **Age**           | 3-5, 6-8, 9-12, 13-15, 16-18                                                                                      | User can add their own    |
+| **Age**           | 3-5, 6-8, 9-12, 13-15, 16-18, and custom ge (user enter)                                                                                      | User can add their own    |
 | **Theme**         | Adventure, Friendship, Magic, Animals, Space, Pirates, Dragons                                                    | User can add their own    |
 | **Plot**          | Lost in forest, Treasure hunt, Saving the village, Finding a new friend, Solving a mystery, Winning a competition | User can add their own    |
 | **Extra Details** | Free text area                                                                                                    | Optional hints for the AI |
@@ -187,8 +187,8 @@ dotnet user-secrets set "StabilityAI:ApiKey" "YOUR_STABILITY_API_KEY"
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/FurqanMujahid/AI_Story_Generator
+cd AI_Story_Generator
 ```
 
 ### 2️⃣ Restore & Build
