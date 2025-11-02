@@ -1,0 +1,221 @@
+﻿@{
+    ViewBag.Title = "Story Generator";
+}
+
+<div class="container py-5">
+    <div class="row">
+        <!-- Form Column -->
+        <div class="col-md-5 mb-4">
+            <div class="card shadow">
+                <div class="card-header bg-secondary text-white">
+                    <h1 class="mb-0">Story Generator</h1>
+                </div>
+                <div class="card-body">
+                    <form id="storyForm" method="post">
+                        <div class="form-group mb-3">
+                            <label for="age" class="form-label">Age:</label>
+                            <select name="age" id="age" class="form-select">
+                                @foreach (var age in ViewBag.Ages as List<string>)
+                                {
+                                    <option value="@age">@age</option>
+                                }
+                                <option value="custom">-- Custom Age --</option>
+                            </select>
+                            <input type="text" name="customAge" id="customAge" class="form-control mt-2" placeholder="Enter custom age range" style="display: none;" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="theme" class="form-label">Theme:</label>
+                            <select name="theme" id="theme" class="form-select">
+                                @foreach (var theme in ViewBag.Themes as List<string>)
+                                {
+                                    <option value="@theme">@theme</option>
+                                }
+                                <option value="custom">-- Custom Theme --</option>
+                            </select>
+                            <input type="text" name="customTheme" id="customTheme" class="form-control mt-2" placeholder="Enter custom theme" style="display: none;" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="plot" class="form-label">Plot:</label>
+                            <select name="plot" id="plot" class="form-select">
+                                @foreach (var plot in ViewBag.Plots as List<string>)
+                                {
+                                    <option value="@plot">@plot</option>
+                                }
+                                <option value="custom">-- Custom Plot --</option>
+                            </select>
+                            <input type="text" name="customPlot" id="customPlot" class="form-control mt-2" placeholder="Enter custom plot" style="display: none;" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="details" class="form-label">Details</label>
+                            <textarea name="details" id="details" class="form-control" rows="3" placeholder="Add any extra details for your story or image..."></textarea>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" id="generateBtn" class="btn btn-outline-secondary btn-lg">Generate Story</button>
+                        </div>
+                    </form>
+                    <div id="loader-overlay" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.3); z-index:2000;">
+                        <div id="loader" class="d-flex flex-column justify-content-center align-items-center" style="height:100vh;">
+                            <div id="progress-steps" class="mb-3">
+                                <div id="step1" class="text-white fw-bold">1. Generating story...</div>
+                                <div id="step2" class="text-white">2. Generating image...</div>
+                                <div id="step3" class="text-white">3. Displaying results...</div>
+                            </div>
+                            <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading..." style="width: 60px; height: 60px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Column -->
+                <div class="col-md-7">
+           @if (ViewBag.Story != null)
+{
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-secondary text-white">
+                    <h2 class="mb-0">Your Story</h2>
+                </div>
+                <div class="card-body">
+                    @Html.Raw(ViewBag.Story)
+                </div>
+            </div>
+        </div>
+        
+        <!-- Paragraph Images Section -->
+        @if (ViewBag.ParagraphImages != null)
+        {
+            <div class="col-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header bg-secondary text-white">
+                        <h2 class="mb-0">Story Images</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            @foreach (var image in ViewBag.ParagraphImages as List<string>)
+                            {
+                                <div class="col-md-4 mb-3">
+                                    <div class="text-center">
+                                        <img src="@image" alt="Paragraph illustration" class="img-fluid rounded shadow" style="max-height: 200px; object-fit: contain;" />
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+            else
+            {
+                <div class="text-center py-5">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4076/4076500.png" alt="Book Icon" width="100" class="mb-4 opacity-75" />
+                    <h4 class="text-secondary fw-bold">No Story Yet</h4>
+                    <p class="text-muted">Fill out the form on the left and hit <strong>Generate</strong> to create a story and its matching image.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show/hide custom input fields based on dropdown selection
+            document.getElementById('age').addEventListener('change', function() {
+                document.getElementById('customAge').style.display = 
+                    this.value === 'custom' ? 'block' : 'none';
+            });
+            
+            document.getElementById('theme').addEventListener('change', function() {
+                document.getElementById('customTheme').style.display = 
+                    this.value === 'custom' ? 'block' : 'none';
+            });
+            
+            document.getElementById('plot').addEventListener('change', function() {
+                document.getElementById('customPlot').style.display = 
+                    this.value === 'custom' ? 'block' : 'none';
+            });
+
+            const form = document.getElementById('storyForm');
+            const loaderOverlay = document.getElementById('loader-overlay');
+            const generateBtn = document.getElementById('generateBtn');
+            const generateTitleImageBtn = document.getElementById('generateTitleImageBtn');
+            let isLoading = false;
+
+            function setLoading(loading) {
+                isLoading = loading;
+                loaderOverlay.style.display = loading ? 'block' : 'none';
+                generateBtn.disabled = loading;
+                generateTitleImageBtn.disabled = loading;
+            }
+
+            form.addEventListener('submit', function(e) {
+                setLoading(true);
+                const step1 = document.getElementById('step1');
+                const step2 = document.getElementById('step2');
+                const step3 = document.getElementById('step3');
+                step1.className = 'text-white fw-bold';
+                step2.className = 'text-white';
+                step3.className = 'text-white';
+                step1.textContent = '1. Generating story...';
+                step2.textContent = '2. Generating image...';
+                step3.textContent = '3. Displaying results...';
+                setTimeout(function() {
+                    step1.className = 'text-secondary';
+                    step2.className = 'text-white fw-bold';
+                }, 1000);
+                setTimeout(function() {
+                    step2.className = 'text-secondary';
+                    step3.className = 'text-white fw-bold';
+                }, 2000);
+                
+            });
+
+            generateTitleImageBtn.addEventListener('click', function() {
+                if (isLoading) return;
+                setLoading(true);
+                let title = '';
+                const storyHtml = document.querySelector('.card-body h2');
+                if (storyHtml) {
+                    title = storyHtml.textContent.trim();
+                } else {
+                    title = document.getElementById('plot').value || 'Story';
+                }
+                fetch('/Home/GenerateTitleImage', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'RequestVerificationToken': document.querySelector('input[name=__RequestVerificationToken]')?.value || ''
+                    },
+                    body: JSON.stringify({ title: title })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    setLoading(false);
+                    if (data && data.titleImageBase64) {
+                        const titleImageSection = document.querySelector('.card-body.text-center img[alt="Title Image"]');
+                        if (titleImageSection) {
+                            titleImageSection.src = 'data:image/png;base64,' + data.titleImageBase64;
+                        } else {
+                            location.reload(); 
+                        }
+                    } else {
+                        alert('Failed to generate title image.');
+                    }
+                })
+                .catch(() => {
+                    setLoading(false);
+                    alert('Failed to generate title image.');
+                });
+            });
+        });
+    </script>
+}

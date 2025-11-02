@@ -1,0 +1,288 @@
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/rpswa.dswa.cache.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.AssemblyInfoInputs.cache
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.AssemblyInfo.cs
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.csproj.CoreCompileInputs.cache
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cache
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cs
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/appsettings.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/WebApplication1.staticwebassets.runtime.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/WebApplication1.staticwebassets.endpoints.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/WebApplication1.exe
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/WebApplication1.deps.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/WebApplication1.runtimeconfig.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/WebApplication1.dll
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/bin/Debug/net9.0/WebApplication1.pdb
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/rjimswa.dswa.cache.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/scopedcss/bundle/WebApplication1.styles.css
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/sfr9826l73-b9sayid5wm.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/ixpe6lrf0h-61n19gt1b8.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/9cuoy2kfs0-xtxxf3hu2r.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/19w17uh790-bqjiyaj88i.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/nxr65fp6ju-c2jlpeoesf.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/vds0grvm57-erw9l3u2r3.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/c0flqbh7jd-aexeepp0ev.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/nm9g14axri-d7shbmvgxk.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/8gyiizm30s-ausgxo2sd3.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/rmjmro5sku-k8d9w2qqmf.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/0o42b2g814-cosvhxvwiu.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/a215y03rvq-ub07r2b239.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/qp4fg9dus5-fvhpjtyr6v.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/03f6gdrpmq-b7pk76d08c.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/fle8gijxpn-fsbi9cje9m.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/o616lg12vu-rzd6atqjts.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/6z9gq5hhul-ee0r1s7dh0.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/byanloesg0-dxx9fxp4il.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/2qyufrochm-jd9uben2k1.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/4wv2vfd634-khv3u5hwcm.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/ja8fqrm8jy-r4e9w2rdcm.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/c2c1yxbmrg-lcd1t2u6c8.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/x0l4wjud04-c2oey78nd0.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/9vrkph75uu-tdbxkamptv.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/ikncwkxbxm-j5mq2jizvt.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/zomefxqwxo-06098lyss8.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/qvcz9cxlw7-nvvlpmu67g.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/3vcl8mu3ac-s35ty4nyc5.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/dn1423ojao-pj5nd1wqec.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/8q27mebpdv-46ein0sx1k.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/1dbtq5xxx4-v0zj4ognzu.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/ikqbg9q10o-37tfw0ft22.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/jat30n7i32-hrwsygsryq.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/cywyta7z3y-pk9g2wxc8p.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/zxs9ktsksh-ft3s53vfgj.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/ee17hrt33b-6cfz1n2cew.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/fymagkd8sm-6pdc2jztkx.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/ng36anrl9o-493y06b0oq.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/zpqfy2c4zi-iovd86k7lj.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/019yz3ojn6-vr1egmr9el.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/vpxwt0ikd2-kbrnm935zg.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/xea8x15nsi-jj8uyg4cgr.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/ru401ckino-y7v9cxd14o.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/1d45i4jnax-notf2xhcfb.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/o5bvkoqpwu-h1s4sie4z3.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/jea6umhs6z-63fj8s7r0e.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/dmrdq0yu68-0j3bgjxly4.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/rz7zkju6cf-47otxtyo56.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/b8h80mpqvt-4v8eqarkd7.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/qc2js6kczy-356vix0kms.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/fic9gxn2mp-83jwlth58m.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/z068dedv35-mrlpezrjn3.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/hpm0ws0t6t-lzl9nlhx6b.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/wryiew6yrs-ag7o75518u.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/qjngrmrkam-x0q3zqp4vz.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/1k3b7g2st6-0i3buxo5is.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/84er2wu9dc-o1o13a6vjx.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/wjzdzii2te-ttgo8qnofa.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/uclpxe38th-2z0ns9nrw6.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/igemxyk2qm-muycvpuwrr.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/tjlucbxuv0-87fc7y1x7t.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/cqxxp6mh6s-mlv21k5csn.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/mz4azubuim-yj6fvmmoe8.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/compressed/4ej8qvsbid-yj6fvmmoe8.gz
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/staticwebassets.build.json.cache
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.dll
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/refint/WebApplication1.dll
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.pdb
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/WebApplication1.genruntimeconfig.cache
+C:/Users/Haris Rehman/OneDrive/Desktop/story/WebApplication1/obj/Debug/net9.0/ref/WebApplication1.dll
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/appsettings.Development.json
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/appsettings.json
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/WebApplication1.staticwebassets.runtime.json
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/WebApplication1.staticwebassets.endpoints.json
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/WebApplication1
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/WebApplication1.deps.json
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/WebApplication1.runtimeconfig.json
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/WebApplication1.dll
+/Users/furqan/Documents/net/story/WebApplication1/bin/Debug/net9.0/WebApplication1.pdb
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.AssemblyInfoInputs.cache
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.AssemblyInfo.cs
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.csproj.CoreCompileInputs.cache
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cache
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cs
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/scopedcss/bundle/WebApplication1.styles.css
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/sfr9826l73-b9sayid5wm.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/ixpe6lrf0h-61n19gt1b8.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/9cuoy2kfs0-xtxxf3hu2r.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/19w17uh790-bqjiyaj88i.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/nxr65fp6ju-c2jlpeoesf.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/vds0grvm57-erw9l3u2r3.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/c0flqbh7jd-aexeepp0ev.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/nm9g14axri-d7shbmvgxk.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/8gyiizm30s-ausgxo2sd3.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/rmjmro5sku-k8d9w2qqmf.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/0o42b2g814-cosvhxvwiu.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/a215y03rvq-ub07r2b239.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/qp4fg9dus5-fvhpjtyr6v.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/03f6gdrpmq-b7pk76d08c.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/fle8gijxpn-fsbi9cje9m.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/o616lg12vu-rzd6atqjts.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/6z9gq5hhul-ee0r1s7dh0.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/byanloesg0-dxx9fxp4il.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/2qyufrochm-jd9uben2k1.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/4wv2vfd634-khv3u5hwcm.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/ja8fqrm8jy-r4e9w2rdcm.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/c2c1yxbmrg-lcd1t2u6c8.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/x0l4wjud04-c2oey78nd0.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/9vrkph75uu-tdbxkamptv.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/ikncwkxbxm-j5mq2jizvt.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/zomefxqwxo-06098lyss8.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/qvcz9cxlw7-nvvlpmu67g.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/3vcl8mu3ac-s35ty4nyc5.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/dn1423ojao-pj5nd1wqec.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/8q27mebpdv-46ein0sx1k.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/1dbtq5xxx4-v0zj4ognzu.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/ikqbg9q10o-37tfw0ft22.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/jat30n7i32-hrwsygsryq.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/cywyta7z3y-pk9g2wxc8p.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/zxs9ktsksh-ft3s53vfgj.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/ee17hrt33b-6cfz1n2cew.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/fymagkd8sm-6pdc2jztkx.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/ng36anrl9o-493y06b0oq.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/zpqfy2c4zi-iovd86k7lj.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/019yz3ojn6-vr1egmr9el.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/vpxwt0ikd2-kbrnm935zg.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/xea8x15nsi-jj8uyg4cgr.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/ru401ckino-y7v9cxd14o.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/1d45i4jnax-notf2xhcfb.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/o5bvkoqpwu-h1s4sie4z3.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/jea6umhs6z-63fj8s7r0e.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/dmrdq0yu68-0j3bgjxly4.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/rz7zkju6cf-47otxtyo56.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/b8h80mpqvt-4v8eqarkd7.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/qc2js6kczy-356vix0kms.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/fic9gxn2mp-83jwlth58m.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/z068dedv35-mrlpezrjn3.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/hpm0ws0t6t-lzl9nlhx6b.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/wryiew6yrs-ag7o75518u.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/qjngrmrkam-x0q3zqp4vz.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/1k3b7g2st6-0i3buxo5is.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/84er2wu9dc-o1o13a6vjx.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/wjzdzii2te-ttgo8qnofa.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/uclpxe38th-2z0ns9nrw6.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/igemxyk2qm-muycvpuwrr.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/tjlucbxuv0-87fc7y1x7t.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/cqxxp6mh6s-mlv21k5csn.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/mz4azubuim-k46wrdlgog.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/compressed/4ej8qvsbid-k46wrdlgog.gz
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/staticwebassets.build.json
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/staticwebassets.development.json
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.dll
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/refint/WebApplication1.dll
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.pdb
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/WebApplication1.genruntimeconfig.cache
+/Users/furqan/Documents/net/story/WebApplication1/obj/Debug/net9.0/ref/WebApplication1.dll
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/appsettings.Development.json
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/appsettings.json
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/WebApplication1.staticwebassets.runtime.json
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/WebApplication1.staticwebassets.endpoints.json
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/WebApplication1
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/WebApplication1.deps.json
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/WebApplication1.runtimeconfig.json
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/WebApplication1.dll
+/Users/furqan/Documents/net/WebApplication1/bin/Debug/net9.0/WebApplication1.pdb
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.AssemblyInfoInputs.cache
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.AssemblyInfo.cs
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.csproj.CoreCompileInputs.cache
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cache
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cs
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/scopedcss/bundle/WebApplication1.styles.css
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/sfr9826l73-b9sayid5wm.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/ixpe6lrf0h-61n19gt1b8.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/9cuoy2kfs0-xtxxf3hu2r.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/19w17uh790-bqjiyaj88i.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/nxr65fp6ju-c2jlpeoesf.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/vds0grvm57-erw9l3u2r3.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/c0flqbh7jd-aexeepp0ev.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/nm9g14axri-d7shbmvgxk.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/8gyiizm30s-ausgxo2sd3.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/rmjmro5sku-k8d9w2qqmf.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/0o42b2g814-cosvhxvwiu.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/a215y03rvq-ub07r2b239.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/qp4fg9dus5-fvhpjtyr6v.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/03f6gdrpmq-b7pk76d08c.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/fle8gijxpn-fsbi9cje9m.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/o616lg12vu-rzd6atqjts.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/6z9gq5hhul-ee0r1s7dh0.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/byanloesg0-dxx9fxp4il.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/2qyufrochm-jd9uben2k1.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/4wv2vfd634-khv3u5hwcm.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/ja8fqrm8jy-r4e9w2rdcm.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/c2c1yxbmrg-lcd1t2u6c8.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/x0l4wjud04-c2oey78nd0.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/9vrkph75uu-tdbxkamptv.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/ikncwkxbxm-j5mq2jizvt.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/zomefxqwxo-06098lyss8.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/qvcz9cxlw7-nvvlpmu67g.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/3vcl8mu3ac-s35ty4nyc5.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/dn1423ojao-pj5nd1wqec.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/8q27mebpdv-46ein0sx1k.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/1dbtq5xxx4-v0zj4ognzu.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/ikqbg9q10o-37tfw0ft22.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/jat30n7i32-hrwsygsryq.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/cywyta7z3y-pk9g2wxc8p.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/zxs9ktsksh-ft3s53vfgj.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/ee17hrt33b-6cfz1n2cew.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/fymagkd8sm-6pdc2jztkx.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/ng36anrl9o-493y06b0oq.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/zpqfy2c4zi-iovd86k7lj.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/019yz3ojn6-vr1egmr9el.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/vpxwt0ikd2-kbrnm935zg.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/xea8x15nsi-jj8uyg4cgr.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/ru401ckino-y7v9cxd14o.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/1d45i4jnax-notf2xhcfb.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/o5bvkoqpwu-h1s4sie4z3.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/jea6umhs6z-63fj8s7r0e.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/dmrdq0yu68-0j3bgjxly4.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/rz7zkju6cf-47otxtyo56.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/b8h80mpqvt-4v8eqarkd7.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/qc2js6kczy-356vix0kms.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/fic9gxn2mp-83jwlth58m.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/z068dedv35-mrlpezrjn3.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/hpm0ws0t6t-lzl9nlhx6b.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/wryiew6yrs-ag7o75518u.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/qjngrmrkam-x0q3zqp4vz.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/1k3b7g2st6-0i3buxo5is.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/84er2wu9dc-o1o13a6vjx.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/wjzdzii2te-ttgo8qnofa.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/uclpxe38th-2z0ns9nrw6.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/igemxyk2qm-muycvpuwrr.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/tjlucbxuv0-87fc7y1x7t.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/cqxxp6mh6s-mlv21k5csn.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/mz4azubuim-k46wrdlgog.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/compressed/4ej8qvsbid-k46wrdlgog.gz
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/staticwebassets.build.json
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/staticwebassets.development.json
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.dll
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/refint/WebApplication1.dll
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.pdb
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/WebApplication1.genruntimeconfig.cache
+/Users/furqan/Documents/net/WebApplication1/obj/Debug/net9.0/ref/WebApplication1.dll
