@@ -108,27 +108,74 @@ public async Task<IActionResult> Index(string age, string theme, string plot, st
 
 
 
-   private async Task<string> GenerateStoryAsync(string prompt)
+private async Task<string> GenerateStoryAsync(string prompt)
+{
+    try
     {
         var client = _httpClientFactory.CreateClient();
         var apiKey = _configuration["Groq:ApiKey"];
-        var requestBody = new
+
+        if (string.IsNullOrEmpty(apiKey))
         {
-            model = "llama3-70b-8192",
-            messages = new[]
-            {
-                new { role = "user", content = prompt }
-            }
-        };
-        var json = JsonSerializer.Serialize(requestBody);
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
+            return "Error: Groq API key is not configured.";
+        }
+
         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
-        var response = await client.PostAsync("https://api.groq.com/openai/v1/chat/completions", content);
-        var responseString = await response.Content.ReadAsStringAsync();
-        using var doc = JsonDocument.Parse(responseString);
-        var generated = doc.RootElement.GetProperty("choices")[0].GetProperty("message").GetProperty("content").GetString();
-        return generated;
+        client.Timeout = TimeSpan.FromSeconds(60);
+
+        // Primary + fallback models known to work with Groq
+        var modelsToTry = new[]
+        {
+            "llama-3.1-70b-versatile",
+            "llama-3.1-8b-instant",
+            "mixtral-8x7b-32768"
+        };
+
+        foreach (var model in modelsToTry)
+        {
+            var requestBody = new
+            {
+                model,
+                messages = new[]
+                {
+                    new { role = "user", content = prompt }
+                },
+                temperature = 0.7,
+                max_tokens = 1024
+            };
+
+            var json = JsonSerializer.Serialize(requestBody);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await client.PostAsync("https://api.groq.com/openai/v1/chat/completions", content);
+            var responseText = await response.Content.ReadAsStringAsync();
+
+            if (response.IsSuccessStatusCode)
+            {
+                using var doc = JsonDocument.Parse(responseText);
+                if (doc.RootElement.TryGetProperty("choices", out var choices) &&
+                    choices.GetArrayLength() > 0 &&
+                    choices[0].TryGetProperty("message", out var message) &&
+                    message.TryGetProperty("content", out var contentElement))
+                {
+                    return contentElement.GetString() ?? "Error: Empty content returned.";
+                }
+                return "Error: Invalid response format from Groq API.";
+            }
+            else
+            {
+                Console.WriteLine($"Model {model} failed with status {response.StatusCode}");
+                Console.WriteLine($"Response: {responseText}");
+            }
+        }
+
+        return "Error: All Groq model attempts failed.";
     }
+    catch (Exception ex)
+    {
+        return $"Error: {ex.Message}";
+    }
+}
 
     private async Task<string> GenerateImageBase64Async(string prompt)
     {
@@ -148,10 +195,17 @@ public async Task<IActionResult> Index(string age, string theme, string plot, st
         return null;
     }
 
-private async Task<string> TryHuggingFaceModels(string prompt)
+ private async Task<string> TryHuggingFaceModels(string prompt)
 {
     var client = _httpClientFactory.CreateClient();
     var apiKey = _configuration["HuggingFace:ApiKey"];
+    
+    if (string.IsNullOrEmpty(apiKey))
+    {
+        Console.WriteLine("Hugging Face API key not configured");
+        return null;
+    }
+    
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
     client.Timeout = TimeSpan.FromSeconds(60);
 
@@ -170,12 +224,7 @@ private async Task<string> TryHuggingFaceModels(string prompt)
         "stabilityai/stable-diffusion-2-1",
         "runwayml/stable-diffusion-v1-5",
         "prompthero/openjourney-v4",
-        "dreamlike-art/dreamlike-photoreal-2.0",
-        "CompVis/stable-diffusion-v1-4",
-        "wavymulder/Analog-Diffusion",
-        "nitrosocke/Arcane-Diffusion",
-        "hakurei/waifu-diffusion",
-        "dgkanatsios/DalleMini"
+        "dreamlike-art/dreamlike-photoreal-2.0"
     };
 
     foreach (var model in modelsToTry)
@@ -184,7 +233,10 @@ private async Task<string> TryHuggingFaceModels(string prompt)
         {
             Console.WriteLine($"Trying Hugging Face model: {model}");
             var url = $"https://api-inference.huggingface.co/models/{model}";
+            
             var response = await client.PostAsync(url, content);
+
+            Console.WriteLine($"Model {model} response: {response.StatusCode}");
 
             if ((int)response.StatusCode == 503)
             {
@@ -203,64 +255,109 @@ private async Task<string> TryHuggingFaceModels(string prompt)
                     Console.WriteLine($"Image generated using model: {model}");
                     return Convert.ToBase64String(bytes);
                 }
+                else
+                {
+                    Console.WriteLine($"Unexpected content type from {model}: {contentType}");
+                }
             }
-            Console.WriteLine($"Model {model} failed with status {response.StatusCode}");
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Model {model} failed with status {response.StatusCode}: {errorContent}");
+            }
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error with model {model}: {ex.Message}");
         }
+        
+        // Small delay between model attempts
+        await Task.Delay(1000);
     }
 
     return null;
 }
-
 private async Task<string> TryStabilityAi(string prompt)
 {
     var client = _httpClientFactory.CreateClient();
     var apiKey = _configuration["StabilityAI:ApiKey"];
-    if (string.IsNullOrEmpty(apiKey)) return null;
+    if (string.IsNullOrEmpty(apiKey)) 
+    {
+        Console.WriteLine("Stability AI API key not configured");
+        return null;
+    }
 
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
+    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
     client.Timeout = TimeSpan.FromSeconds(60);
 
     try
     {
-        Console.WriteLine("Trying Stability AI API");
-        var payload = new
-        {
-            text_prompts = new[] { new { text = prompt, weight = 1 } },
-            cfg_scale = 7,
-            height = 512,
-            width = 512,
-            steps = 30,
-            samples = 1
-        };
+        Console.WriteLine("Trying Stability AI API with prompt: " + prompt.Substring(0, Math.Min(50, prompt.Length)) + "...");
+
+        // Updated payload according to Stability AI's current API documentation
+       var payload = new
+{
+    text_prompts = new[]
+    {
+        new { text = prompt, weight = 1.0 }
+    },
+    cfg_scale = 7,
+    height = 1024, 
+    width = 1024,  
+    steps = 30,
+    samples = 1
+};
+
+        var jsonContent = JsonSerializer.Serialize(payload);
+        Console.WriteLine("Sending payload: " + jsonContent);
 
         var response = await client.PostAsync(
             "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image",
-            new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json"));
+            new StringContent(jsonContent, Encoding.UTF8, "application/json"));
+
+        Console.WriteLine($"Stability AI response status: {response.StatusCode}");
 
         if (response.IsSuccessStatusCode)
         {
-            var json = await response.Content.ReadAsStringAsync();
-            using var doc = JsonDocument.Parse(json);
-            var imageBase64 = doc.RootElement
-                .GetProperty("artifacts")[0]
-                .GetProperty("base64")
-                .GetString();
-            Console.WriteLine("Image generated via Stability AI");
-            return imageBase64;
+            var responseContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine("Stability AI success response received");
+            
+            try
+            {
+                using var doc = JsonDocument.Parse(responseContent);
+                var imageBase64 = doc.RootElement
+                    .GetProperty("artifacts")[0]
+                    .GetProperty("base64")
+                    .GetString();
+                
+                Console.WriteLine("Image generated via Stability AI");
+                return imageBase64;
+            }
+            catch (Exception jsonEx)
+            {
+                Console.WriteLine($"Error parsing Stability AI response: {jsonEx.Message}");
+                Console.WriteLine($"Response content: {responseContent}");
+                return null;
+            }
         }
-        Console.WriteLine($"Stability AI failed with status {response.StatusCode}");
+        else
+        {
+            var errorContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"Stability AI failed with status {response.StatusCode}");
+            Console.WriteLine($"Error response: {errorContent}");
+            return null;
+        }
     }
     catch (Exception ex)
     {
         Console.WriteLine($"Stability AI error: {ex.Message}");
+        if (ex.InnerException != null)
+        {
+            Console.WriteLine($"Inner exception: {ex.InnerException.Message}");
+        }
+        return null;
     }
-
-    return null;
 }
-
 
 }

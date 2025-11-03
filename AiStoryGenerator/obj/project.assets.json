@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/furqan/.nuget/packages/": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/furqan/Documents/net/WebApplication1/WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\GitHub\\AI_Story_Generator\\AiStoryGenerator\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "/Users/furqan/Documents/net/WebApplication1/WebApplication1.csproj",
-      "packagesPath": "/Users/furqan/.nuget/packages/",
-      "outputPath": "/Users/furqan/Documents/net/WebApplication1/obj/",
+      "projectPath": "C:\\Users\\USER\\Documents\\GitHub\\AI_Story_Generator\\AiStoryGenerator\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\GitHub\\AI_Story_Generator\\AiStoryGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/furqan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
