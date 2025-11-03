@@ -8,29 +8,26 @@ Create **personalized stories for all age groups** and **matching AI-generated i
 
 ### 🏠 Default Section (Homepage & About Page)
 
-* ![Homepage Screenshot](docs/HomePae.png)
+* ![Homepage Screenshot](docs/HomePae.PNG)
 * ![About Page Screenshot](docs/screenshot_about.png)
-* ![Loadin](docs/load.png)
+* ![Loadin](docs/load.PNG)
 
 ### 📚 Story Group 1
 
-* ![Story 1 Screenshot](docs/Form.png)
-* ![Story 1 Images](docs/story.png)
-* ![Story 1 Images](docs/images.png)
-* ![Story 1 Images](docs/image%201.png.png)
-* ![Story 1 Images](docs/image%202.png.png)
-* ![Story 1 Images](docs/image%203.png.png)
+* ![Story 1 Screenshot](docs/Form.PNG)
+* ![Story 1 Images](docs/story.PNG)
+* ![Story 1 Images](docs/images.PNG)
+* ![Story 1 Images](docs/image%201.png)
+* ![Story 1 Images](docs/image%202.png)
+* ![Story 1 Images](docs/image%203.png)
 
 ### 📚 Story Group 2
 
-* ![Story 2 Screenshot](docs/second_story_frm.png)
-* ![Story 2 Screenshot](docs/second_story.png)
-* ![Story 2 Screenshot](docs/second_iamges.png)
+* ![Story 2 Screenshot](docs/second_story_frm.PNG)
+* ![Story 2 Screenshot](docs/second_story.PNG)
 * ![Story 2 Screenshot](docs/second_story_1.png)
 * ![Story 2 Screenshot](docs/second_story_2.png)
 * ![Story 2 Screenshot](docs/second_story_3.png)
-
-> Replace the above paths with your actual screenshots in the `docs/` folder or GitHub URLs.
 
 ---
 
