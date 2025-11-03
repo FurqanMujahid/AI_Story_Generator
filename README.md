@@ -6,29 +6,52 @@ Create **personalized stories for all age groups** and **matching AI-generated i
 
 ## 🖼️ Project Screenshots
 
-### 🏠 Default Section (Homepage & About Page)
+<table>
+<tr>
+<th colspan="3" style="text-align:center;">🏠 Default Section (Homepage & About Page)</th>
+</tr>
+<tr>
+<td align="center"><img src="docs/HomePae.PNG" alt="Homepage" width="250"/><br/><b>Homepage</b></td>
+<td align="center"><img src="docs/about.jfif" alt="About Page" width="250"/><br/><b>About Page</b></td>
+<td align="center"><img src="docs/load.PNG" alt="Loading" width="250"/><br/><b>Loading Screen</b></td>
+</tr>
+</table>
 
-* ![Homepage Screenshot](docs/HomePae.PNG)
-* ![About Page Screenshot](docs/screenshot_about.png)
-* ![Loadin](docs/load.PNG)
+---
 
-### 📚 Story Group 1
+<table>
+<tr>
+<th colspan="3" style="text-align:center;">📚 Story Group 1</th>
+</tr>
+<tr>
+<td align="center"><img src="docs/Form.PNG" alt="Story Form" width="250"/><br/><b>Story 1 – Input Form</b></td>
+<td align="center"><img src="docs/story.PNG" alt="Generated Story" width="250"/><br/><b>Story 1 – Generated Story</b></td>
+<td align="center"><img src="docs/images.PNG" alt="Story Images" width="250"/><br/><b>Story 1 – Image Set</b></td>
+</tr>
+<tr>
+<td align="center"><img src="docs/image%201.png" alt="Story 1 Image 1" width="250"/><br/><b>Image 1</b></td>
+<td align="center"><img src="docs/image%202.png" alt="Story 1 Image 2" width="250"/><br/><b>Image 2</b></td>
+<td align="center"><img src="docs/image%203.png" alt="Story 1 Image 3" width="250"/><br/><b>Image 3</b></td>
+</tr>
+</table>
 
-* ![Story 1 Screenshot](docs/Form.PNG)
-* ![Story 1 Images](docs/story.PNG)
-* ![Story 1 Images](docs/images.PNG)
-* ![Story 1 Images](docs/image%201.png)
-* ![Story 1 Images](docs/image%202.png)
-* ![Story 1 Images](docs/image%203.png)
+---
 
-### 📚 Story Group 2
-
-* ![Story 2 Screenshot](docs/second_story_frm.PNG)
-* ![Story 2 Screenshot](docs/second_story.PNG)
-* ![Story 2 Screenshot](docs/second_story_1.png)
-* ![Story 2 Screenshot](docs/second_story_2.png)
-* ![Story 2 Screenshot](docs/second_story_3.png)
-
+<table>
+<tr>
+<th colspan="3" style="text-align:center;">📖 Story Group 2</th>
+</tr>
+<tr>
+<td align="center"><img src="docs/second_story_frm.PNG" alt="Story 2 Form" width="250"/><br/><b>Story 2 – Input Form</b></td>
+<td align="center"><img src="docs/second_story.PNG" alt="Story 2 Story" width="250"/><br/><b>Story 2 – Generated Story</b></td>
+<td align="center"><img src="docs/second_story_1.png" alt="Story 2 Image 1" width="250"/><br/><b>Image 1</b></td>
+</tr>
+<tr>
+<td align="center"><img src="docs/second_story_2.png" alt="Story 2 Image 2" width="250"/><br/><b>Image 2</b></td>
+<td align="center"><img src="docs/second_story_3.png" alt="Story 2 Image 3" width="250"/><br/><b>Image 3</b></td>
+<td></td>
+</tr>
+</table>
 ---
 
 ## 📚 About
