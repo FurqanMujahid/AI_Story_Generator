@@ -1,64 +1,59 @@
 # 🧠 AI Story Generator (ASP.NET Core MVC, .NET 9)
 
-Create **personalized stories for all age group** and **matching AI-generated illustrations**!
-Select or enter an **age group**, **theme**, and **plot**, add optional details, and generate a **3-paragraph HTML story** with **AI-created images** for each paragraph.
+Create **personalized stories for all age groups** and **matching AI-generated illustrations**! Select or enter an **age group**, **theme**, and **plot**, add optional details, and generate a **3-paragraph HTML story** with **AI-created images** for each paragraph.
 
 ---
 
-## 🖼️ Project Screenshot
+## 🖼️ Project Screenshots
 
-### 📸 Image 1: Homepage / Input Form
+### 🏠 Default Section (Homepage & About Page)
 
-![Homepage Screenshot](docs/screenshot_home.png)
+* ![Homepage Screenshot](docs/HomePae.PNG)
+* ![About Page Screenshot](docs/screenshot_about.png)
+* ![Loadin](docs/load.PNG)
 
-### 🧠 Image 2: Story Generation in Progress (Loader)
+### 📚 Story Group 1
 
-![Loader Screenshot](docs/screenshot_loader.png)
+* ![Story 1 Screenshot](docs/Form.PNG)
+* ![Story 1 Images](docs/story.PNG)
+* ![Story 1 Images](docs/images.PNG)
+* ![Story 1 Images](docs/image%201.png)
+* ![Story 1 Images](docs/image%202.png)
+* ![Story 1 Images](docs/image%203.png)
 
-### 📖 Image 3: Generated Story Output
+### 📚 Story Group 2
 
-![Story Screenshot](docs/screenshot_story.png)
-
-### 🎨 Image 4: AI-Generated Illustrations
-
-![Images Screenshot](docs/screenshot_images.png)
-
-### 💡 Image 5: About Page
-
-![About Screenshot](docs/screenshot_about.png)
-
-### ⚙️ Image 6: API Flow Diagram
-
-![Flow Diagram](docs/architecture_diagram.png)
-
-> Replace the paths above with your actual image URLs or local repo files under `docs/`.
+* ![Story 2 Screenshot](docs/second_story_frm.PNG)
+* ![Story 2 Screenshot](docs/second_story.PNG)
+* ![Story 2 Screenshot](docs/second_story_1.png)
+* ![Story 2 Screenshot](docs/second_story_2.png)
+* ![Story 2 Screenshot](docs/second_story_3.png)
 
 ---
 
 ## 📚 About
 
-The **Story Generator** is an interactive AI web app built with **ASP.NET Core MVC (.NET 9)**.
-It helps parents, teachers, and children create creative, age-appropriate stories and matching illustrations using **Groq**, **Hugging Face**, and **Stability AI**.
+The **Story Generator** is an AI-powered web app built with **ASP.NET Core MVC (.NET 9)**. It allows users to generate creative, age-appropriate stories and corresponding illustrations using **Groq**, **Hugging Face**, and **Stability AI** APIs.
 
 💡 Perfect for:
 
 * Bedtime stories
-* Classroom creativity sessions
-* Fun and educational storytelling activities
+* Classroom creativity
+* Fun & educational storytelling
 
 ---
 
 ## 🚀 Tech Stack
 
-| Layer             | Technology                                                  |
-| ----------------- | ----------------------------------------------------------- |
-| **Backend**       | ASP.NET Core MVC (.NET 9)                                   |
-| **HTTP Client**   | `IHttpClientFactory`                                        |
-| **Story AI**      | Groq API (Llama 3 70B 8192)                                 |
-| **Image AI**      | Hugging Face Inference API → optional Stability AI fallback |
-| **Frontend**      | Razor Views, Bootstrap 5, custom JS loader                  |
-| **Language**      | C# 12                                                       |
-| **Configuration** | `appsettings.json` or User Secrets                          |
+| Layer             | Technology                                                               |
+| ----------------- | ------------------------------------------------------------------------ |
+| **Backend**       | ASP.NET Core MVC (.NET 9)                                                |
+| **HTTP Client**   | `IHttpClientFactory`                                                     |
+| **Story AI**      | Groq API (Llama 3.3 70B Versatile / Llama 3.1 8B Instant / Mixtral 8x7B) |
+| **Image AI**      | Hugging Face Inference API → Stability AI fallback                       |
+| **Frontend**      | Razor Views, Bootstrap 5, JS Loader                                      |
+| **Language**      | C# 12                                                                    |
+| **Configuration** | appsettings.json / User Secrets                                          |
 
 ---
 
@@ -66,33 +61,37 @@ It helps parents, teachers, and children create creative, age-appropriate storie
 
 ### 🎭 Preset + Custom Inputs
 
-| Field             | Preset Options                                                                                                    | Custom Option             |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| **Age**           | 3-5, 6-8, 9-12, 13-15, 16-18, and custom ge (user enter)                                                                                      | User can add their own    |
-| **Theme**         | Adventure, Friendship, Magic, Animals, Space, Pirates, Dragons                                                    | User can add their own    |
-| **Plot**          | Lost in forest, Treasure hunt, Saving the village, Finding a new friend, Solving a mystery, Winning a competition | User can add their own    |
-| **Extra Details** | Free text area                                                                                                    | Optional hints for the AI |
+| Field       | Preset Options                                                                                                    | Custom Option            |
+| ----------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| **Age**     | 3–5, 6–8, 9–12, 13–15, 16–18                                                                                     | User can enter their own |
+| **Theme**   | Adventure, Friendship, Magic, Animals, Space, Pirates, Dragons                                                    | User can enter their own |
+| **Plot**    | Lost in forest, Treasure hunt, Saving the village, Finding a new friend, Solving a mystery, Winning a competition | User can enter their own |
+| **Details** | Free-form text area                                                                                               | Optional hints for AI    |
 
 ---
 
 ### 🧩 AI Story Generation
 
-* Uses **Groq Llama 3 70B 8192** for story text
-* Produces structured **HTML** output:
+* Uses **Groq** with Llama 3 models:
 
-  ```html
-  <h2>Story Title</h2>
-  <p>Paragraph 1...</p>
-  <p>Paragraph 2...</p>
-  <p>Paragraph 3...</p>
-  ```
+  * `llama-3.3-70b-versatile`
+  * `llama-3.1-8b-instant`
+  * fallback `mixtral-8x7b-32768`
+* Produces structured **HTML**:
+
+```html
+<h2>Story Title</h2>
+<p>Paragraph 1...</p>
+<p>Paragraph 2...</p>
+<p>Paragraph 3...</p>
+```
 
 ---
 
 ### 🎨 AI Image Generation
 
-* Builds a visual prompt for each paragraph (`theme + plot + paragraph + details`)
-* Attempts multiple **Hugging Face models**, in order:
+* Builds prompts with: theme + plot + paragraph + details
+* Tries Hugging Face models sequentially:
 
   1. `stabilityai/stable-diffusion-xl-base-1.0`
   2. `stabilityai/stable-diffusion-2-1`
@@ -104,74 +103,37 @@ It helps parents, teachers, and children create creative, age-appropriate storie
   8. `nitrosocke/Arcane-Diffusion`
   9. `hakurei/waifu-diffusion`
   10. `dgkanatsios/DalleMini`
-* If all fail, falls back to **Stability AI** (`stable-diffusion-xl-1024-v1-0`)
-* Displays up to **3 images** side-by-side under the story
+* Falls back to **Stability AI** (`stable-diffusion-xl-1024-v1-0`) if needed.
 
 ---
 
-### 💡 Dynamic UI & Loader
-
-* Interactive dropdowns that reveal **custom input fields** when “-- Custom --” is chosen
-* Animated **3-step loader overlay**:
-
-  1. Generating story
-  2. Generating images
-  3. Displaying results
-
----
-
-## ⚙️ How It Works (Code Overview)
+## ⚙️ How It Works
 
 ### 🏠 `HomeController`
 
-* **GET / Home / Index**
-
-  * Populates dropdown lists (`ViewBag.Ages`, `ViewBag.Themes`, `ViewBag.Plots`)
-* **POST / Home / Index**
-
-  * Reads form input (`age`, `theme`, `plot`, `custom*`, `details`)
-  * Builds a prompt and calls `GenerateStoryAsync` (Groq)
-  * Extracts `<h2>` for title and up to 3 `<p>` paragraphs
-  * For each paragraph:
-
-    * Calls `GenerateImageBase64Async`
-    * Tries `TryHuggingFaceModels()` → falls back to `TryStabilityAi()`
-  * Returns story HTML and base64 images via `ViewBag`
+* `GET /Home/Index` → loads dropdowns.
+* `POST /Home/Index` → builds prompts, generates story, and creates per-paragraph images.
+* `GenerateStoryAsync` uses Groq (Llama 3.x models) → extracts title & paragraphs.
+* `GenerateImageBase64Async` → tries Hugging Face → Stability AI fallback.
 
 ### 📄 Views
 
-* **Views/Home/Index.cshtml** — Form UI, loader, story viewer, image gallery
-* **Views/Home/About.cshtml** — About page explaining the project
+* **Views/Home/Index.cshtml** — Main story generator UI.
+* **Views/Home/About.cshtml** — Project description.
 
 ---
 
 ## 🔑 Configuration
 
-### 🧰 Required API Keys
-
-| Service          | Key                  | Purpose                            |
-| ---------------- | -------------------- | ---------------------------------- |
-| **Groq**         | `Groq:ApiKey`        | Story text generation              |
-| **Hugging Face** | `HuggingFace:ApiKey` | Primary image generation           |
-| **Stability AI** | `StabilityAI:ApiKey` | Optional fallback image generation |
-
-### `appsettings.json`
-
 ```json
 {
-  "Groq": {
-    "ApiKey": "YOUR_GROQ_API_KEY"
-  },
-  "HuggingFace": {
-    "ApiKey": "YOUR_HUGGINGFACE_API_KEY"
-  },
-  "StabilityAI": {
-    "ApiKey": "YOUR_STABILITY_API_KEY_OPTIONAL"
-  }
+  "Groq": { "ApiKey": "YOUR_GROQ_API_KEY" },
+  "HuggingFace": { "ApiKey": "YOUR_HUGGINGFACE_API_KEY" },
+  "StabilityAI": { "ApiKey": "YOUR_STABILITY_API_KEY_OPTIONAL" }
 }
 ```
 
-### Recommended: Use **User Secrets** in development
+Use **User Secrets** for local development:
 
 ```bash
 dotnet user-secrets init
@@ -184,93 +146,41 @@ dotnet user-secrets set "StabilityAI:ApiKey" "YOUR_STABILITY_API_KEY"
 
 ## 🧩 Getting Started
 
-### 1️⃣ Clone the repository
-
 ```bash
 git clone https://github.com/FurqanMujahid/AI_Story_Generator
 cd AI_Story_Generator
-```
-
-### 2️⃣ Restore & Build
-
-```bash
 dotnet restore
 dotnet build
-```
-
-### 3️⃣ Run the app
-
-```bash
 dotnet run
 ```
 
-By default:
+App runs on:
 ➡️ `https://localhost:5001` or `http://localhost:5000`
-
----
-
-## 🪄 Usage Guide
-
-1. Open the app in your browser
-2. Select **Age**, **Theme**, and **Plot**
-3. Or choose “-- Custom --” to enter your own values
-4. Optionally fill in **Details** to guide the AI
-5. Click **Generate Story**
-6. Watch the loader steps:
-
-   * Generating story
-   * Generating images
-   * Displaying results
-7. Read your AI-generated story and see the matching images!
-
----
-
-## 🌐 Environment and APIs
-
-| Component                   | Endpoint / Model                                                                     |
-| --------------------------- | ------------------------------------------------------------------------------------ |
-| **Groq (LLM)**              | `https://api.groq.com/openai/v1/chat/completions` (model: `llama3-70b-8192`)         |
-| **Hugging Face (Images)**   | Multiple models tried sequentially                                                   |
-| **Stability AI (Fallback)** | `https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image` |
 
 ---
 
 ## ⚠️ Notes & Limitations
 
-* The Groq output must follow `<h2>` + `<p>` HTML format; malformed output may affect parsing.
-* Image generation may be slow or return HTTP 503 while models warm up — the code retries automatically.
-* Custom options are stored **in static lists** for the app lifetime (reset on restart).
-* If all image providers fail, only the story text is shown.
-* The script references `generateTitleImageBtn` and `/Home/GenerateTitleImage`, but these are **not implemented**. They can be safely removed or added later.
+* Groq must return proper HTML tags (`<h2>`, `<p>`)
+* Hugging Face may return 503 while models warm up
+* Custom options reset on app restart
+* If all image APIs fail → only text story appears
 
 ---
 
 ## 🔒 Security
 
-* **Never commit API keys** to source control.
-* Use ASP.NET Core **User Secrets** or environment variables in development.
-* Use secure secrets management (Azure Key Vault, AWS Secrets Manager, etc.) in production.
+* Never commit API keys.
+* Use secure secret management in production.
 
 ---
 
-## 🧰 Troubleshooting
+## 🛣️ Roadmap
 
-| Issue                      | Solution                                                     |
-| -------------------------- | ------------------------------------------------------------ |
-| ❌ No story appears         | Check Groq API key and network access                        |
-| 🖼️ No images              | Verify Hugging Face API key; optionally add Stability AI key |
-| ⏳ Slow or 503 errors       | Models may be loading — retry in 10–15 seconds               |
-| 🔄 Custom inputs not saved | Static lists reset after app restart                         |
-
----
-
-## 🛣️ Roadmap Ideas
-
-* Implement `/Home/GenerateTitleImage` (for cover art)
-* Persist user-added inputs (database or session storage)
-* Add **model selector** and **negative prompts** for advanced users
-* Add **PDF export** or **story gallery**
-* Integrate **content safety filters**
+* Implement `/Home/GenerateTitleImage`
+* Persist user inputs (session/DB)
+* Add model selector & export to PDF
+* Add moderation filters
 
 ---
 
@@ -285,9 +195,7 @@ MIT License
 
 ## ❤️ Acknowledgements
 
-* [Groq](https://groq.com/) for ultra-fast Llama 3 inference
-* [Hugging Face](https://huggingface.co/) for open model hosting
-* [Stability AI](https://stability.ai/) for image fallback
-* [Bootstrap](https://getbootstrap.com/) for frontend styling
-
----
+* [Groq](https://groq.com/) — Fast Llama 3 models
+* [Hugging Face](https://huggingface.co/) — Image generation
+* [Stability AI](https://stability.ai/) — Fallback image models
+* [Bootstrap](https://getbootstrap.com/) — Frontend styling
